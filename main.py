@@ -1,8 +1,10 @@
-# Tried of having to pay for pdf summarizers? Well look no further. 70% of code was me the rest was GPT generated
-# haha. Developer: Niraj Nepal Date: 03/16/2023 References:
+# Tried of having to pay for pdf summarizers? Well look no further haha. 
+# Developer: Niraj Nepal Date: 03/16/2023 
+# References:
 # https://pypdf2.readthedocs.io/en/latest/user/extract-text.html ,
 # https://platform.openai.com/docs/api-reference/models/retrieve?lang=python ,
 # https://analyzingalpha.com/openai-api-python-tutorial
+
 
 import openai
 import PyPDF2

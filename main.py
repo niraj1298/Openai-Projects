@@ -44,9 +44,8 @@ def summarize_text(text, model="text-davinci-002",
                    tokens=150):  # model = gpt-4 ( once limited beta is released. ) tokens change to 8000 once release
     response = openai.Completion.create(
         engine=model,
-        # define your prompt here prompt=f"Please summarize the following text, and give main points and ideas about
-        # crisis communication, I want 10-12 great points on crisis communication:\n\n{text}\n",
-        prompt=f"Summarize the pdf give detailed information, give me about 4 paragraphs, give me bullet points as well:\n\n{text}\n",
+        # define your prompt here prompt
+        prompt=f"Summarize the pdf give detailed information:\n\n{text}\n",
         max_tokens=tokens,
         n=1,
         stop=None,
